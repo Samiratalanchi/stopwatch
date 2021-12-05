@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 }
 #timer {
-    width: 600px;
+    width: 500px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -28,5 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:auto
+    margin:auto;
+    box-shadow: -3px -3px 3px rgb(226, 225, 225),3px 3px 7px rgb(59, 59, 59);
+    cursor: pointer;
 }

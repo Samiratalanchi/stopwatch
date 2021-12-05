@@ -28,3 +28,11 @@ function stop() {
     clearInterval(x);
     document.getElementById("timer").style.color="red";
 }
+function reset() {
+    clearInterval(x);
+    document.getElementById("timer").style.color="black";
+    sec = 0;
+    min = 0;
+    hour = 0;
+    document.getElementById("timer").innerHTML = "00:00:00"; 
+}

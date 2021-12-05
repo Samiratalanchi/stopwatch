@@ -2,7 +2,8 @@ var sec = 0;
 var min = 0;
 var hour = 0;
 function start() {
-    setInterval(startWatch,1000);
+    x=setInterval(startWatch,1000);
+    document.getElementById("timer").style.color="black";
 }
 function startWatch() {
     sec++;
@@ -22,4 +23,8 @@ function startWatch() {
        hour = "0" + parseInt(hour); 
     }
     document.getElementById("timer").innerHTML = hour + ":" + min + ":" + sec; 
+}
+function stop() {
+    clearInterval(x);
+    document.getElementById("timer").style.color="red";
 }

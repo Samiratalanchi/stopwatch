@@ -32,3 +32,6 @@ body {
     box-shadow: -3px -3px 3px rgb(226, 225, 225),3px 3px 7px rgb(59, 59, 59);
     cursor: pointer;
 }
+.button:active {
+    box-shadow: 1px 1px 7px rgb(59, 59, 59);
+}
